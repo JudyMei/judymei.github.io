@@ -43,6 +43,11 @@ p {font-size: 16px;}
   background-color: #ffffff;
   color: #555555;
 }
+.bg-5 { 
+  background-color: #f3eedf;
+  color: #555555;
+}
+
 .footer { 
   background-color: #2f2f2f; /* Black Gray */
   color: #fff;
@@ -103,5 +108,18 @@ p {font-size: 16px;}
 
 .profile-container{
   width:75%;
+}
+
+.projects div{
+  margin-bottom: 10px;
+}
+
+.projects div img{
+  height: 240px;
+  width:100%;
+}
+
+.projects div .active:hover{
+  opacity: 0.6;
 }
 
