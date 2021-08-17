@@ -22,12 +22,11 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"></li><a class="nav-link" href="#profile">PROFILE</a></li>
-        <li class="nav-item"></li><a class="nav-link" href="#experience">EXPERIENCE</a></li>
-        <li class="nav-item"></li><a class="nav-link" href="#skills">ABILITIES</a></li>
-        <li class="nav-item"></li><a class="nav-link" href="#projects">PROJECTS</a></li>
+        <li class="nav-item profile"><a class="nav-link" href="#profile"><span>PROFILE</span></a></li>
+        <li class="nav-item experience"><a class="nav-link" href="#experience"><span>EXPERIENCE</span></a></li>
+        <li class="nav-item skills"><a class="nav-link" href="#skills"><span>ABILITIES</span></a></li>
+        <li class="nav-item projects"><a class="nav-link" href="#projects"><span> PROJECTS </span></a></li>
       </ul>
-
     </div>
   </div>
 </nav>
@@ -35,211 +34,228 @@
 
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center" id="intro"> 
-  <!-- <h1 class="margin">Profile</h1> -->
-  <div class="home">
-    <div class="d-flex justify-content-center align-items-center margin bgdimg">
-      <img src="images/judy.JPG" class="img-fluid rounded-circle mx-auto d-block shadow-sm" alt="Judy wearing a blue polo smiling" width="350" height="350">
-    </div>
-    <h1 >Judy Mei</h1>
-    <h3>Software Engineer</h3>
-    <div class="text-center">
-      <a class="btn btn-primary btn-sm" href="https://www.linkedin.com/in/judy-mei-bs/" target="_blank">LinkedIn</a>
-      <a class="btn btn-dark btn-sm" href="https://github.com/JudyMei" target="_blank" style="color:white">GitHub</a>
+<section id="intro">
+  <div class="container-fluid bg-1 text-center"> 
+    <!-- <h1 class="margin">Profile</h1> -->
+    <div class="home">
+      <div class="d-flex justify-content-center align-items-center margin bgdimg">
+        <img src="images/judy.JPG" class="img-fluid rounded-circle mx-auto d-block shadow-sm" alt="Judy wearing a blue polo smiling" width="350" height="350">
+      </div>
+      <h1 >Judy Mei</h1>
+      <h3>Software Engineer</h3>
+      <div class="text-center">
+        <a class="btn btn-primary btn-sm" href="https://www.linkedin.com/in/judy-mei-bs/" target="_blank">LinkedIn</a>
+        <a class="btn btn-dark btn-sm" href="https://github.com/JudyMei" target="_blank" style="color:white">GitHub</a>
+      </div>
     </div>
   </div>
-  
-</div>
+</section>
 
 <!-- Profile Container -->
-<div class="container-fluid bg-2 text-center" id="profile">
-  <div class="container">
-    <h2 class="title" id="profile">Profile</h2>
-    <hr>
-      <div class="row justify-content-between" style="text-align:left;">
-        <div class="col-8">
-          <h4 class="title">About Me</h4>
-          <p>
-            I’m a recent college graduate and a software engineer starting to grow her career professionally. 
-            I love to create clean and visually appealing products such this one. I also have an interest in 
-            building accessible applications and fixing little details. As a strong advocate for continuous learning, 
-            I am always open to new opportunities that provide growth and learning.
-          </p>
+<section id="profile">
+  <div class="container-fluid bg-2 text-center">
+    <div class="container">
+      <h2 class="title">Profile</h2>
+      <hr>
+        <div class="row justify-content-between" style="text-align:left;">
+          <div class="col-8">
+            <h4 class="title">About Me</h4>
+            <p>
+              I’m a recent college graduate and a software engineer starting to grow her career professionally. 
+              I love to create clean and visually appealing products such this one. I also have an interest in 
+              building accessible applications and fixing little details. As a strong advocate for continuous learning, 
+              I am always open to new opportunities that provide growth and learning.
+            </p>
+          </div>
+          <div class="col-3">
+            <h4 class="title">Details</h4>
+            <ul class="list-inline">
+              <li class="list-inline-item thick">Name:</li>
+              <li class="list-inline-item"><small>Judy Mei</small></li>
+            </ul>
+            <ul class="list-inline">
+              <li class="list-inline-item thick">Age:</li>
+              <li class="list-inline-item"><small>22 Years</small></li>
+            </ul>
+            <ul class="list-inline">
+              <li class="list-inline-item thick">Address:</li>
+              <li class="list-inline-item"><small>New York, NY</small></li>
+            </ul>
+          </div>
         </div>
-        <div class="col-3">
-          <h4 class="title">Details</h4>
-          <ul class="list-inline">
-            <li class="list-inline-item thick">Name:</li>
-            <li class="list-inline-item"><small>Judy Mei</small></li>
-          </ul>
-          <ul class="list-inline">
-            <li class="list-inline-item thick">Age:</li>
-            <li class="list-inline-item"><small>22 Years</small></li>
-          </ul>
-          <ul class="list-inline">
-            <li class="list-inline-item thick">Address:</li>
-            <li class="list-inline-item"><small>New York, NY</small></li>
-          </ul>
-        </div>
-      </div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- Experience Container -->
-<div class="container-fluid bg-3 text-center" id="experience"> 
-  <div class="container">
-    <h2 class="title" id="profile">Experience</h2>
-    <hr>
-    <div style="text-align:left;">
-      <h4 class="title">Education</h4>
-      <div class="row experience">
-        <div class="col-md-4">
-          <label class="thick">University at Buffalo</label>
-          <p><small>August 2017 - May 2021</small></p>
-        </div>
-        <div class="col-md-8">
-          <p>
-            <label class="thick"> Bachelor of Science - Computer Science</label><br>
-            <span><small>The education was mainly Java-based but we used some C++ and python as well. During my four 
-              years in college, I was exposed to a variety of courses outside of the typical computer science 
-              curriculum including media studies, video game design, and digital electronics. </small> 
-            </span>
-          </p>
-        </div>
-      </div>
+<section id="experience">
+  <div class="container-fluid bg-3 text-center"> 
+    <div class="container">
+      <h2 class="title">Experience</h2>
       <hr>
-      <h4 class="title">Careers</h4>
-      <div class="row experience">
-        <div class="col-md-4">
-          <label class="thick">TCS - North America</label>
-          <p><small>May 2021 - Present</small></p>
+      <div style="text-align:left;">
+        <h4 class="title">Education</h4>
+        <div class="row experienceItem">
+          <div class="col-md-4">
+            <label class="thick">University at Buffalo</label>
+            <p><small>August 2017 - May 2021</small></p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <label class="thick"> Bachelor of Science - Computer Science</label><br>
+              <span><small>The education was mainly Java-based but we used some C++ and python as well. During my four 
+                years in college, I was exposed to a variety of courses outside of the typical computer science 
+                curriculum including media studies, video game design, and digital electronics. </small> 
+              </span>
+            </p>
+          </div>
         </div>
-        <div class="col-md-8">
-          <p>
-            <label class="thick"> Fulltime - Software Engineer </label><br>
-            <span><small>
-              As a full stack software engineer consultant at TCS, I help clients build solution-driven software 
-              utilizing frontend and backend technologies such as Java, HTML, CSS, Angular and Node.JS. 
-            </small></span>
-          </p>
+        <hr>
+        <h4 class="title">Careers</h4>
+        <div class="row experienceItem">
+          <div class="col-md-4">
+            <label class="thick">TCS - North America</label>
+            <p><small>May 2021 - Present</small></p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <label class="thick"> Fulltime - Software Engineer </label><br>
+              <span><small>
+                As a full stack software engineer consultant at TCS, I help clients build solution-driven software 
+                utilizing frontend and backend technologies such as Java, HTML, CSS, Angular and Node.JS. 
+              </small></span>
+            </p>
+          </div>
+        </div>
+        <div class="row experienceItem">
+          <div class="col-md-4">
+            <label class="thick">University at Buffalo | CSE Department</label>
+            <p><small>August 2018 - May 2021</small></p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <label class="thick"> Part-time - Digital Systems Teaching Assistant</label><br>
+              <span><small>As a Teaching Assistant for a sophomore level Digital Electronics course, I assisted with grading
+                and class related activites for 160 students including instructing hands-on laboratory sessions. The 
+                laboratory sessions gave students an opportunity to learn about the processes of building physical circuits 
+                using a breadboard and arduino.
+              </small> 
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="row experienceItem">
+          <div class="col-md-4">
+            <label class="thick">University at Buffalo | Office of Equity, Diversity and Inclusion</label>
+            <p><small>August 2018 - January 2020</small></p>
+          </div>
+          <div class="col-md-8">
+            <p>
+              <label class="thick"> Part-time - Web Accessibility Assistant </label><br>
+              <span><small>As a Web Accessibility Assistant, I was able to assist with the accessibility testing and remediation 
+                of all university websites, applications, electronic documents and 3rd party softwares. This position taught me the
+                importance of accessibly designed websites and applications as well as how to ensure your site is accessible 
+                to all users of varying disabilities like mobile, learning, etc. 
+              </small> 
+              </span>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row experience">
-        <div class="col-md-4">
-          <label class="thick">University at Buffalo | CSE Department</label>
-          <p><small>August 2018 - May 2021</small></p>
-        </div>
-        <div class="col-md-8">
-          <p>
-            <label class="thick"> Part-time - Digital Systems Teaching Assistant</label><br>
-            <span><small>As a Teaching Assistant for a sophomore level Digital Electronics course, I assisted with grading
-              and class related activites for 160 students including instructing hands-on laboratory sessions. The 
-              laboratory sessions gave students an opportunity to learn about the processes of building physical circuits 
-              using a breadboard and arduino.
-            </small> 
-            </span>
-          </p>
-        </div>
-      </div>
-      <div class="row experience">
-        <div class="col-md-4">
-          <label class="thick">University at Buffalo | Office of Equity, Diversity and Inclusion</label>
-          <p><small>August 2018 - January 2020</small></p>
-        </div>
-        <div class="col-md-8">
-          <p>
-            <label class="thick"> Part-time - Web Accessibility Assistant </label><br>
-            <span><small>As a Web Accessibility Assistant, I was able to assist with the accessibility testing and remediation 
-              of all university websites, applications, electronic documents and 3rd party softwares. This position taught me the
-              importance of accessibly designed websites and applications as well as how to ensure your site is accessible 
-              to all users of varying disabilities like mobile, learning, etc. 
-            </small> 
-            </span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>  
-</div>
+    </div>  
+  </div>
+</section>
 
 <!-- Skills Container -->
-<div class="container-fluid bg-4 text-center" id="skills">
-  <div class="container">
-    <h2 class="title" id="profile">Abilities</h2>
-    <hr>
+<section id="skills">
+  <div class="container-fluid bg-4 text-center">
     <div class="container">
-      <h4 class="title">Skills</h4>
-      <div class="skills">
-        <div>JAVA</div>
-        <div>HTML</div>
-        <div>Css</div>
-        <div>JavaScript</div>
-        <div>TypeScript</div>
-        <div>Bootstrap Framework</div>
-        <div>AngularTS</div>
-        <div>Node.JS</div>
-        <div>MongoDB</div>
-        <div>OracleXE</div>
+      <h2 class="title">Abilities</h2>
+      <hr>
+      <div class="container">
+        <h4 class="title">Skills</h4>
+        <div class="skills">
+          <div>JAVA</div>
+          <div>HTML</div>
+          <div>Css</div>
+          <div>JavaScript</div>
+          <div>TypeScript</div>
+          <div>Bootstrap Framework</div>
+          <div>AngularTS</div>
+          <div>Node.JS</div>
+          <div>MongoDB</div>
+          <div>OracleXE</div>
+        </div>
+      </div>
+      <div class="tools-container">
+        <h4 class="title">Tools</h4>
+        <div class="skills">
+          <div>Mac</div>
+          <div>Windows</div>
+          <div>Jira</div>
+          <div>Zenhub</div>
+          <div>GitHub</div>
+          <div>Eclipse</div>
+          <div>VSCode</div>
+        </div>
       </div>
     </div>
-    <div class="tools-container">
-      <h4 class="title">Tools</h4>
-      <div class="skills">
-        <div>Mac</div>
-        <div>Windows</div>
-        <div>Jira</div>
-        <div>Zenhub</div>
-        <div>GitHub</div>
-        <div>Eclipse</div>
-        <div>VSCode</div>
-      </div>
-    </div>
-  </div>
-</div> 
+  </div> 
+</section>
 
 <!-- Projects Container -->
-<div class="container-fluid bg-5 text-center" id="projects"> 
-  <div class="container">
-    <h2 class="title" id="profile">Projects</h2>
-    <hr>
-    <div style="text-align:left;">
-      <div class="row projects">
-        <div class="col-md-5">
-          <img src="images/Movie Roulette.png" alt="..." class="img-fluid rounded">
+<section id="projects" class="bg-5">
+  <div class="container-fluid text-center"> 
+    <div class="container">
+      <h2 class="title">Projects</h2>
+      <hr>
+      <div style="text-align:left;">
+        <div class="row projects">
+          <div class="col-md-5">
+            <img src="images/Movie Roulette.png" alt="..." class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <p>
+              <label class="thick"> Movie Roulette (In Progress)</label><br>
+              <span><small>Movie Night is one of the most common get-togethers that I have with my friends and family. 
+                However, the dark cloud that haunts each movie night is having to decide what movie to watch. With 
+                everyone having different ideas of what they like, movie night would sometimes end with fights or just 
+                wouldn’t happen at all. That is when I decided to create “Movie Roulette”. The web app that is saving 
+                movie night one click at a time. With this app, we can have a movie randomly generated for us based on 
+                predefined parameters that we can feed into the site. </small> 
+              </span>
+            </p>
+          </div>
         </div>
-        <div class="col-md-7">
-          <p>
-            <label class="thick"> Movie Roulette (In Progress)</label><br>
-            <span><small>Movie Night is one of the most common get-togethers that I have with my friends and family. 
-              However, the dark cloud that haunts each movie night is having to decide what movie to watch. With 
-              everyone having different ideas of what they like, movie night would sometimes end with fights or just 
-              wouldn’t happen at all. That is when I decided to create “Movie Roulette”. The web app that is saving 
-              movie night one click at a time. With this app, we can have a movie randomly generated for us based on 
-              predefined parameters that we can feed into the site. </small> 
-            </span>
-          </p>
+        <div class="row projects">
+          <div class="col-md-5">
+            <a href="https://judymei.github.io/parasite/" target="_blank"> <img src="images/parasite.png" alt="..." class="img-fluid rounded active"></a>
+          </div>
+          <div class="col-md-7">
+            <p>
+              <label class="thick"> Parasite - Movie In Review </label><br>
+              <span><small> This is a website I made on a South Korean film titled Parasite. During my internship with 
+                M&T Bank’s Technology Program, we were tasked with creating a website on one of our favorite movies or 
+                shows. Being one of my all-time favorite movies and honestly one of the greatest masterpieces ever to 
+                be created by a film director, I chose Parasite as my topic of choice. Using HTML, CSS, JavaScript and 
+                Bootstrap, I created “a movie in review” with the movie’s basic information, rating, reviews as well as 
+                where to watch.
+              </small></span>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row projects">
-        <div class="col-md-5">
-          <a href="https://judymei.github.io/parasite/" target="_blank"> <img src="images/parasite.png" alt="..." class="img-fluid rounded active"></a>
-        </div>
-        <div class="col-md-7">
-          <p>
-            <label class="thick"> Parasite - Movie In Review </label><br>
-            <span><small> This is a website I made on a South Korean film titled Parasite. During my internship with 
-              M&T Bank’s Technology Program, we were tasked with creating a website on one of our favorite movies or 
-              shows. Being one of my all-time favorite movies and honestly one of the greatest masterpieces ever to 
-              be created by a film director, I chose Parasite as my topic of choice. Using HTML, CSS, JavaScript and 
-              Bootstrap, I created “a movie in review” with the movie’s basic information, rating, reviews as well as 
-              where to watch.
-            </small></span>
-          </p>
-        </div>
-      </div>
-    </div>
+    </div>  
   </div>  
-</div>
+  <div class="return">
+    <div class="container-fluid text-right">
+      <label><a class="btn btn-sm" href="#intro">Return to Top</a></label>
+    </div>
+  </div>
+
+  
+  
+</section> 
 
 <!-- Footer -->
 <footer class="container-fluid footer text-center">
@@ -271,5 +287,6 @@
   <p style="opacity: 0.6;"><small>This website is made using HTML, CSS, JavaScript and Bootstrap </small></p> 
 </footer>
 
+<script src="./main.js"></script>
 </body>
 </html>

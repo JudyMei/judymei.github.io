@@ -5,7 +5,7 @@ body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
-  margin-top: 65px;
+  /* margin-top: 65px; */
 }
 
 p {font-size: 16px;}
@@ -36,7 +36,7 @@ p {font-size: 16px;}
   background-color: #f3eedf;
   color: #555555;
 }
-.experience{
+.experienceItem{
   font-size: 16px;
 }
 .bg-4 { 
@@ -52,6 +52,19 @@ p {font-size: 16px;}
   background-color: #2f2f2f; /* Black Gray */
   color: #fff;
 }
+
+.return .container-fluid{
+  padding:0;
+}
+
+.return .container-fluid label{
+  margin-right: 5px;
+}
+
+.return .container-fluid label a:hover{
+  color: #6D9DC5;
+}
+
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -64,6 +77,23 @@ p {font-size: 16px;}
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
+  position: sticky;
+  top:0;
+}
+
+nav .container div ul li.active{
+  background-color: #6D9DC5;
+  border-radius: 5px;
+  transition: 0.3 ease background-color;
+}
+
+nav .container div ul li.active a span{
+  color: white;
+}
+
+.nav-link:hover span{
+  color: #6D9DC5;
+  font-weight: bold;
 }
 
 .no-bullets{
